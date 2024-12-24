@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's New at Starbucks</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(sbbg.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+        }
+        header {
+            background-color: rgba(0, 99, 65, 0.9);
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 76, 47, 0.9);
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .card h3 {
+            color: #006341;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0, 76, 47, 0.9);
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>What's New at Starbucks</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#new-drinks">New Drinks</a>
+        <a href="#seasonal-offers">Seasonal Offers</a>
+        <a href="#sustainability">Sustainability</a>
+    </nav>
+
+    <div class="content">
+        <section id="new-drinks" class="card">
+            <h3>New Holiday Beverages</h3>
+            <img src="holi.jpg" alt="New holiday drink">
+            <p>Discover our latest seasonal favorites, including the Peppermint Mocha and Chestnut Praline Latte.</p>
+        </section>
+
+        <section id="seasonal-offers" class="card">
+            <h3>Seasonal Offers</h3>
+            <img src="images.jpg" alt="Seasonal offers">
+            <p>Enjoy special discounts and exclusive rewards this holiday season.</p>
+        </section>
+
+        <section id="sustainability" class="card">
+            <h3>Our Commitment to Sustainability</h3>
+            <img src="sus.jpg" alt="Sustainability initiatives">
+            <p>Learn how Starbucks is reducing its environmental impact with eco-friendly initiatives.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Starbucks Coffee Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
